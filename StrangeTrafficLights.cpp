@@ -16,14 +16,17 @@ int main()
         if (warna >= 0 && warna <= 19)
         {
             cout << "Warna Lampu: Hijau";
+            cout << "\nLampu Berikutnya: KUning";
         }
         else if (warna >= 20 && warna <= 22)
         {
             cout << "Warna Lampu: Kuning";
+            cout << "\n Warna Lampu Berikutnya: Merah";
         }
         else
         {
             cout << "Warna Lampu: Merah";
+            cout << "\nWarna Lampu Berikutnya: Hijau";
         }
         cout << "\nIngin mengecek warna lagi? (y/n):";
         cin >> repeat;
@@ -33,3 +36,4 @@ int main()
     cout << "Program selesai.\n";
     return 0;
 }
+
