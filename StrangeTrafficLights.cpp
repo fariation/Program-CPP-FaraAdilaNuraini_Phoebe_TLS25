@@ -16,7 +16,7 @@ int main()
         if (warna >= 0 && warna <= 19)
         {
             cout << "Warna Lampu: Hijau";
-            cout << "\nLampu Berikutnya: KUning";
+            cout << "\nLampu Berikutnya: Kuning";
         }
         else if (warna >= 20 && warna <= 22)
         {
@@ -36,4 +36,5 @@ int main()
     cout << "Program selesai.\n";
     return 0;
 }
+
 
